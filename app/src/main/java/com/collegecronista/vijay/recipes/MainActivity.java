@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                 final EditText title = (EditText)view.findViewById(R.id.add_title);
                 final EditText description = (EditText)view.findViewById(R.id.add_description);
                 Button button = (Button)view.findViewById(R.id.add_button);
+                //builder.setPositiveButton();
                 button.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                             recipeAdapter.notifyDataSetChanged();
 
 //                            if(toast != null){toast.cancel();}
-//                            toast = Toast.makeText(getApplicationContext(),"recipes added",Toast.LENGTH_SHORT);
+//                            toast = Toast.makeText(MainActivity.this,"recipes added",Toast.LENGTH_SHORT);
 //                            toast.show();
 
                         }else{

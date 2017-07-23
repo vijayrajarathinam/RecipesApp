@@ -6,12 +6,12 @@
         android:title="add"
         android:orderInCategory="1"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_add_black_24dp"/>
+        android:icon="@mipmap/ic_search"/>
     <item
         android:orderInCategory="2"
         android:id="@+id/search"
         android:title="search"
         app:actionViewClass="android.support.v7.widget.SearchView"
         app:showAsAction="always|collapseActionView"
-        android:icon="@drawable/ic_search_black_24dp"/>
+        android:icon="@mipmap/ic_ladd"/>
 </menu>
